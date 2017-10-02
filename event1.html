@@ -1,0 +1,59 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<title>event</title>
+
+</head>
+<body>
+	<section class="container w-50">
+		<div class="row mb-10">
+			<div class="col">
+				<button onclick="myEvent()">Click me</button>
+				<p id="demo"></p>
+			</div>
+		</div>
+<!--  -->
+		<div class="row">
+			<div class="col">
+				<button ondblclick="myEvent1()">Click me</button>
+				<p id="demo1"></p>
+			</div>
+		</div>
+		
+<!--  -->
+		<div class="row">
+			<div class="col">
+				<input type="text" onfocus="myEvent2()" id="demo2">
+			</div>
+		</div>
+
+		
+<!--  -->
+		<div class="row">
+			<div class="col">
+				<input type="text" onkeydown="myEvent3()" id="qsn">
+				<p id="ans"></p>
+			</div>
+		</div>
+<!--  -->
+		<div class="row">
+			<div class="col">
+				<input type="text" onkeyup="myEvent4()">
+			</div>
+		</div>
+<!--  -->
+	<div class="row">
+			<div class="col">
+				<input type="text" onblur="myEvent5()" id="demo5">
+			</div>
+		</div>
+<!--  -->
+		<div class="row">
+			<div class="col">
+				<input type="text" onkeypress="myEvent6()" id="demo6">
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="event1.js"></script>
+</body>
+</html>
